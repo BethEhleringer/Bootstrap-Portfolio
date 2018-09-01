@@ -9,6 +9,11 @@
     <!--<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />-->
     <style>
 
+      header {
+        border-bottom: solid 2px #666;
+
+      }
+      
       h1, h2, h3, h4, h5, h6 {
         font-family: 'Georgia', 'Times New Roman', Times, serif;
       }
@@ -17,7 +22,6 @@
       nav {margin:0px auto; padding:0px;}
       .navbar {
         background-color:#f00; 
-          border-bottom: solid 2px #666;
           padding:0px auto;
       }
       .navbar-brand{
@@ -51,8 +55,11 @@ footer p {
 </head>
 <body>
     <header>
+        <div class="row">
+                <div class="col-lg-1 col-md-1 d-none d-md-block"></div>
+                <div class="col col-lg-10 col-md-10 col-sm-12 col-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html" style="color:#FFF;">Beth Ehleringer</a>
+                    <a class="navbar-brand navbar-expand-sm" href="index.html" style="color:#FFF;">Beth Ehleringer</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -71,6 +78,9 @@ footer p {
                       </ul>
                     </div>
                   </nav>
+                  </div>
+                  <div class="col-lg-1 col-md-1 d-none d-md-block"></div>
+                </div>
     </header>
 
 <div class="row">
@@ -94,14 +104,16 @@ footer p {
     </div>
 </div>
 </div>
+</div>
 <div class="col-lg-1 col-md-1 d-none d-md-block"></div>
+</div>
 <footer class="footer">
     <div class="container">
         <span class="text-muted">&copy; 2018 Elizabeth Ehleringer</span>
     </div>
 </footer>
-</div>
-</div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
